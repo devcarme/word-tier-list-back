@@ -1,16 +1,16 @@
-#Word Tier List Python Flask REST API
+# Word Tier List Python Flask REST API #
 
-##Clone the project
+## Clone the project from github ##
 git clone https://github.com/devcarme/word-tier-list-back.git
 
-##Go into the directory
-###`cd word-tier-list-back`
-###`py -3 -m venv venv`
-##Install dependencies
-###`venv\Scripts\activate`
+## Go into the directory ##
+### `cd word-tier-list-back` ###
+### `py -3 -m venv venv` ###
+## Install dependencies ##
+### `venv\Scripts\activate` ###
 
-##Install Flask
-###`pip install Flask`
+## Install Flask ##
+### `pip install Flask` ###
 
-###Run the project
-###`flask run`
+### Run the project ###
+### `flask run` ###
