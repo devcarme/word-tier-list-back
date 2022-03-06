@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flaskProject.iml" filepath="$PROJECT_DIR$/.idea/flaskProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/word-tier-list-back.iml" filepath="$PROJECT_DIR$/.idea/word-tier-list-back.iml" />
     </modules>
   </component>
 </project>
