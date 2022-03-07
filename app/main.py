@@ -111,6 +111,3 @@ def update_word():
         mimetype='application/json'
     )
     return response
-
-if __name__ == "__main__":
-  app.run()
