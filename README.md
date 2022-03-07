@@ -14,3 +14,6 @@ git clone https://github.com/devcarme/word-tier-list-back.git
 
 ### Run the project ###
 ### `flask run` ###
+
+### Deploy the project on Heroku ###
+### `https://www.youtube.com/watch?v=LwY4yC8AesQ` ###
