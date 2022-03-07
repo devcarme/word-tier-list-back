@@ -10,7 +10,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-client = pymongo.MongoClient(os.environ.get("mongodb+srv://admin:z6HFhyO952qVJvAT@cluster0.ay330.mongodb.net/word_tier_list?retryWrites=true&w=majority"))
+client = pymongo.MongoClient("mongodb+srv://admin:z6HFhyO952qVJvAT@cluster0.ay330.mongodb.net/word_tier_list?retryWrites=true&w=majority")
 db = client.words
 
 class JSONEncoder(json.JSONEncoder):
