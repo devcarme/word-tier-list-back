@@ -75,8 +75,8 @@ def add_word():
     return response
 
 def get_all_words():
-    # get all the words from the database sorted by tier
-    words = db.words.find().sort('tier', pymongo.DESCENDING)
+    # get all the words from the database sorted by tier descending
+    words = db.words.find().sort('tier', -1)
     # convert the words to a list
     words_list = [word for word in words]
     words_list = JSONEncoder().encode(words_list)
